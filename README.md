@@ -53,3 +53,20 @@ sudo systemctl start metricbeat
 1. Перейдите в http://localhost:5601
 2. Создайте Index Puttern metricbeat-YYYY.MM.DD
 3. Постройте визуализации
+
+## Примеры визуализаций
+
+### Загрузка процессора
+![CPU Usage Line](images/cpu_usage.png)
+
+### Загрузка оперативной памяти
+![RAM Usage](images/RAM_usage.png)
+
+### Сетевой трафик
+![Traffic Network](images/traffic.png)
+
+### Доли от использования процессора
+![Shares CPU](images/shares_cpu.png)
+
+### Пример Дашборда
+![Dashboards](images/dashboards.png)
