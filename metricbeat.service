@@ -1,0 +1,12 @@
+[Unit]
+Description=Metricbeat
+After=network.target
+
+[Service]
+ExecStart=/opt/metricbeat/metricbeat -e
+WorkingDirectory=/opt/metricbeat
+Restart=always
+User=root
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,2 @@
+- pipeline.id: metricbeat_pipeline
+  path.config: "/opt/logstash/config/conf.d/metricbeat.conf"
